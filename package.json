@@ -1,0 +1,21 @@
+{
+  "name": "veji-me",
+  "module": "server.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch ./src/server.ts",
+    "start": "bun run ./src/server.ts",
+    "setup": "tsx ./src/setup.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^20.11.30",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "elysia": "^1.0.7",
+    "postgres": "^3.4.4",
+    "zod": "^3.22.4"
+  }
+}

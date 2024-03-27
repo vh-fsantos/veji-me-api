@@ -1,0 +1,10 @@
+POST http://localhost:3333/api/v1/links
+Content-Type: application/json
+x-api-key: 101c11ac-a1ff-49d0-bf40-5970274612c8
+
+{
+    "url": "https://neomot.com.br/"
+}
+
+###
+GET http://localhost:3333/rLuSpLyi
